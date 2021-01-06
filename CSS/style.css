@@ -287,7 +287,7 @@ nav{
   width: 1000px;
   opacity: 0.1;
   margin-left: 15%;
-  margin-top: 10%;
+  margin-top: -5%;
 }
 
 .Divider_p2{
@@ -298,7 +298,7 @@ nav{
   display: block;
   position: absolute;
   width: 400px;
-  margin-top: 50%;
+  margin-top: 80%;
   margin-left: 72%;
 }
 .img_5{
@@ -316,7 +316,7 @@ nav{
   width: 1000px;
   opacity: 0.1;
   margin-left: 15%;
-  margin-top: 10%;
+  margin-top: -10%;
 }
 
 footer{

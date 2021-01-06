@@ -9,8 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500&family=Noto+Serif+TC:wght@300;400;500&display=swap" rel="stylesheet">
     
     <script src="./js/jquery.min.js"></script>
-    <script src="./js/jquery.stellar.min.js"></script>
-    <script src="./js/parallax.min.js"></script>
+    <script src="./js/gsap.min.js"></script>
+    <script src="./js/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
     <script src="./js/script.js"></script>
 </head>
 <body>
@@ -69,12 +70,10 @@
 
     
     <img class="img_1" src="./images/cloud.png" alt="">
-    <div id = "scene">
-    <div data-depth = "0.2"><img class="img_2" src="./images/Mazu_1.png" alt=""></div>
-    <div data-depth = "0.6"><img class="bg_1"  src="./images/bg1.png" alt=""></div>
-    </div>
+    <div data-rellax-speed="2" class="rellax"><img class="img_2" src="./images/Mazu_1.png" alt=""></div>
+    <div data-rellax-speed="-4" class="rellax"><img class="bg_1"  src="./images/bg1.png" alt=""></div>
     
-    <div class="paragraph_1">
+    <div class="paragraph_1 rellax" data-rellax-speed="2">
         <h1 class="article_title">如同母親的媽祖</h1>
         <p class="article">     
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;媽祖在以陸地為主的中國被稱做天妃，同樣在大陸的沿海地區就是台灣閩客移民的原鄉地，「媽祖」的稱呼卻是被普遍使用的，在趙翼《陔餘叢考》中就有此紀錄：<br>
@@ -88,9 +87,9 @@
         <img class="Divider_img_p1" src="./images/line.png" alt="divider">
     </div>
 
-    <img class="img_3" src="./images/fell down.png" alt="">
-    <div><img class="bg_2"  src="./images/boat.png" alt=""></div>
-    <div class="paragraph_2">
+    <div data-rellax-speed="2" class="rellax"><img class="img_3" src="./images/fell down.png" alt=""></div>
+    <div data-rellax-speed="-2" class="rellax"><img class="bg_2"  src="./images/boat.png" alt=""></div>
+    <div class="paragraph_2 rellax" data-rellax-speed="2">
         <h1 class="article_title">航海者重要的信仰寄託</h1>
         <p class="article">     
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;媽祖在十七、十八世紀起就已成為閩粵人航海者的海洋守護神，特別是以台灣為中心的東亞海域，從台灣航線上可達的國家紀錄來看，媽祖儼然成為使用該航線的航海者重要信仰寄託。<br>
@@ -106,7 +105,7 @@
 
     <div><img class="img_4" src="./images/Mazu_2.png" alt=""></div>
     <div><img class="img_5" src="./images/burner.png" alt=""></div>
-    <div><img class="bg_3"  src="./images/wave.png" alt=""></div>
+    <div data-rellax-speed="-3" class="rellax"><img class="bg_3"  src="./images/wave.png" alt=""></div>
     <div class="paragraph_3">
         <h1 class="article_title">媽祖的崇高地位</h1>
         <p class="article">     

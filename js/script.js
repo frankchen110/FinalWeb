@@ -52,10 +52,10 @@ $(document).ready(function () {
 
 
   /*滾動視差*/
- 
-  var scene = document.getElementById('scene');
-  var parallaxInstance = new Parallax(scene, {
-    relativeInput: true
-  });
+$( document).ready(function() {
+	var rellax = new Rellax('.rellax');
+});
 
+
+  
   
