@@ -10,9 +10,10 @@
     
     <script src="./js/jquery.min.js"></script>
     <script src="./js/jquery.stellar.min.js"></script>
+    <script src="./js/parallax.min.js"></script>
     <script src="./js/script.js"></script>
 </head>
-<body data-stellar-background-ratio="0.1">
+<body>
     <nav class="nav">
         <ul class="nav_list">
             <li class="nav_list_item">
@@ -36,6 +37,24 @@
         </ul>
     </nav>
 
+    <!-- 複製老師的 -->
+   		<div class="container--fluid">
+			<nav class="nav">
+				<span class="navbar__icon-bar" menu-click="false"></span>
+				<ul class="nav__list">
+					<li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">About</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">Portfolio</a></li>
+					<li class="nav__item show-large"><a class="nav__link" href="#">FAQs</a></li>
+					<li class="nav__item show-large"><a class="nav__link" href="#">Links</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div> <!-- container--fluid -->
+
+
+
+
     <h2 class="title">緣起</h2>
     <div class="path">
     <a href="" class="path_1">首頁</a>
@@ -48,9 +67,13 @@
     </div>
 
 
+    
     <img class="img_1" src="./images/cloud.png" alt="">
-    <div><img class="img_2" src="./images/Mazu_1.png" alt=""></div>
-    <div><img class="bg_1"  src="./images/bg1.png" alt=""></div>
+    <div id = "scene">
+    <div data-depth = "0.2"><img class="img_2" src="./images/Mazu_1.png" alt=""></div>
+    <div data-depth = "0.6"><img class="bg_1"  src="./images/bg1.png" alt=""></div>
+    </div>
+    
     <div class="paragraph_1">
         <h1 class="article_title">如同母親的媽祖</h1>
         <p class="article">     

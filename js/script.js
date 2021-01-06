@@ -32,3 +32,30 @@ jQuery(document).ready(function($){
 jQuery('#cody-info ul li').eq(1).on('click', function(){
 $('#cody-info').hide();
 });
+
+
+// hamburger_menu
+$(document).ready(function () {
+    let menu_click = false;
+  
+    $(".navbar__icon-bar").click(function () {
+      menu_click = !menu_click;
+      if (menu_click) {
+        $(".nav__list").addClass("menu-click");
+        $(".navbar__icon-bar").attr("menu-click", "true");
+      } else {
+        $(".nav__list").removeClass("menu-click");
+        $(".navbar__icon-bar").attr("menu-click", "false");
+      }
+    });
+  });
+
+
+  /*滾動視差*/
+ 
+  var scene = document.getElementById('scene');
+  var parallaxInstance = new Parallax(scene, {
+    relativeInput: true
+  });
+
+  
